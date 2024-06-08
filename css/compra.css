@@ -62,4 +62,9 @@ main div form p input[type="submit"]{
 main div form p input[type="submit"]:hover{
   background-color: rgb(98, 11, 178);
 }
+footer{
+  position:fixed;
+  width:100%;
+  bottom:0px;
+}
 
