@@ -11,7 +11,7 @@ main {
 main > div {
   height: 300px;
   display: flex;
-  max-width: 400px;
+  width: 90%;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
@@ -26,7 +26,7 @@ main  div  form {
 }
 
 main div form p{
-  background-color: blueviolet;
+  background-color:#014040;
   width: 90%;
   display: flex;
   margin: auto;
@@ -36,7 +36,9 @@ main div form p{
 }
 main div form select{
   width: 50%;
-  height: 99%;
+  height: 97%;
+  margin-top:2px;
+  margin-bottom:2px;
 }
 main div form p label{
   width: 50%;
@@ -57,10 +59,10 @@ main div form p input[type="submit"]{
   color: white;
   font-weight: bolder;
   border: 1px solid white;
-  background-color: blueviolet;
+  background-color: #014040;
 }
 main div form p input[type="submit"]:hover{
-  background-color: rgb(98, 11, 178);
+  background-color: #012f2f;
 }
 footer{
   position:fixed;
